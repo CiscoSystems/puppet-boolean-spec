@@ -1,5 +1,5 @@
 Name:		puppet-boolean	
-Version:	0.2
+Version:	0.3
 Release:	1cisco%{?dist}
 Summary:	Puppet boolean module
 
@@ -36,6 +36,9 @@ cp -R * %{buildroot}/%{_usr}/share/puppet/modules/%{name}/
 rm -rf %{buildroot}
 
 %changelog
+* Thu May 16 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.3-1cisco
+- 
+
 * Tue May 07 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.2-1cisco
 - new package built with tito
 
